@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.resume-container {
+    width: 700px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.header .title {
+    font-size: 18px;
+    color: #777;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.section p,
+.section ul {
+    color: #555;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 30px;
+}

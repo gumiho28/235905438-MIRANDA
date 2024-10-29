@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Valorant Fonts -->
+  <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <img id="header-img" src="https://logodownload.org/wp-content/uploads/2019/12/riot-games-logo-1.png" alt="Valorant Logo">
+    <nav id="nav-bar">
+      <a href="#agents" class="nav-link">Agents</a>
+      <a href="#weapons" class="nav-link">Weapons</a>
+      <a href="#maps" class="nav-link">Maps</a>
+      <a href="#signup" class="nav-link">Download</a>
+    </nav>
+  </header>
+
+  <!-- Background Video -->
+  <div class="video-background">
+    <video autoplay muted loop>
+      <source src="valorantclove.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Main Content Overlay -->
+  <div class="content-overlay">
+    <section id="main">
+      <h1>Valorant</h1>
+      <p>Download Valorant and jump into the action-packed world of tactical FPS!</p>
+      <a href="https://valorant.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.ap.exe" id="download-btn" download>Play for Free Now</a>
+    </section>
+    
+    <!-- Embedded Weapons Showcase Video -->
+    <div id="video-container" class="video-spacing">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/e_E9W2vsRbQ?autoplay=1&loop=1&playlist=e_E9W2vsRbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- Agents Section -->
+    <section id="agents" class="section-with-image">
+      <h2>Meet the Agents</h2>
+      <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1d62a3751be9d7abfce84da8ca89be7d79f07fed-1232x1232.png?auto=format&fit=fill&q=80&w=873" alt="Agents" class="section-image">
+      <p>Valorant's agents each bring unique abilities and tactical advantages that define a player’s role in the team.</p>
+      <ul>
+        <li><strong>Jett:</strong> A swift duelist known for quick dashes and acrobatics, great for aggressive plays.</li>
+        <li><strong>Phoenix:</strong> Fire-wielding, with self-healing and offensive abilities to outplay enemies.</li>
+        <li><strong>Sova:</strong> A recon expert using his tech-enhanced bow to scout and locate opponents.</li>
+        <li><strong>Raze:</strong> Demolition expert with grenades and a devastating rocket launcher.</li>
+        <li><strong>Sage:</strong> The team’s healer, offering restorative abilities and barriers for control.</li>
+      </ul>
+    </section>
+
+    <!-- Weapons Section -->
+    <section id="weapons">
+      <h2>Arm Yourself</h2>
+      <p>Valorant's weaponry spans from close-range SMGs to long-range snipers, supporting diverse playstyles.</p>
+      
+      <!-- Video Element for showcasing weapons -->
+      <video width="100%" controls loop>
+        <source src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/f6ccf20dfe3f6a24ea9216bb8afaaa66740c715d.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Maps Section -->
+    <section id="maps" class="section-with-image">
+      <h2>Explore the Maps</h2>
+      <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fe3ff195d072643e1cc1e07801152d2e2ab96cd6-1920x1080.jpg" alt="Maps" class="section-image">
+      <p>Valorant's maps feature distinct environments, each designed to enhance tactical gameplay and team strategy.</p>
+      <ul>
+        <li><strong>Bind:</strong> Features teleporters that enable fast rotations and unpredictable plays.</li>
+        <li><strong>Haven:</strong> Unique with three sites to cover, making it critical to coordinate defense and attack.</li>
+        <li><strong>Ascent:</strong> Open mid-area with destructible doors, creating dynamic approaches for players.</li>
+        <li><strong>Split:</strong> Vertical map with ropes for rapid movement between levels.</li>
+        <li><strong>Breeze:</strong> Set on a tropical island, offering wide-open spaces and unique angles.</li>
+      </ul>
+    </section>
+
+    <!-- Email Signup Form -->
+    <section id="signup">
+      <h2>Stay Updated</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" id="submit" value="Sign Up">
+      </form>
+    </section>
+
+    <!-- Expanded Content -->
+    <section id="gameplay">
+      <h2>Experience the Thrill</h2>
+      <p>Valorant combines tactical gameplay with the precision of a first-person shooter, where every round requires strategy, skill, and quick reflexes. Whether you're planting the spike or defusing it, every moment counts!</p>
+      <ul>
+        <li><strong>Competitive Play:</strong> Test your skills against the best players worldwide.</li>
+        <li><strong>Unranked Matches:</strong> Practice and enjoy casual gameplay with friends.</li>
+        <li><strong>Practice Range:</strong> Hone your aim and get comfortable with the game's mechanics.</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Valorant Tribute Page. Shawn Miranda fan site.</p>
+      <div>
+        <a href="#terms">Terms</a> | <a href="#privacy">Privacy Policy</a> | <a href="#contact">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
