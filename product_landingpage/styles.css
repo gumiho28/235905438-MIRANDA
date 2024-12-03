@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #1b1e23;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Video Background with Overlay */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.video-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+/* Video Styles */
+video {
+  border-radius: 20px; 
+  margin-top: 20px; 
+  max-width: 800px; 
+  height: auto;
+}
+
+
+/* Header */
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  padding: 0 20px;
+}
+
+#header-img {
+  width: 120px;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff4655;
+}
+
+/* Main Content Overlay */
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  padding-top: 80px;
+  padding-bottom: 80px; 
+}
+
+/* Title and Download Button */
+#main h1 {
+  font-family: 'VALORANT', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff4655;
+  margin-bottom: 20px;
+}
+
+#main p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+#download-btn {
+  padding: 15px 30px;
+  background-color: #ff4655;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#download-btn:hover {
+  background-color: #d03a46;
+}
+
+.video-spacing {
+  margin-top: 50px; 
+}
+
+
+
+/* Form Styling */
+#signup {
+  margin: 60px 0;
+}
+
+#signup h2 {
+  font-size: 1.8rem;
+  color: #ff4655;
+}
+
+#email {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  width: 300px;
+  margin: 10px 0;
+  background-color: #333;
+  color: white;
+}
+
+#submit {
+  padding: 12px 20px;
+  background-color: #ff4655;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #d03a46;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2rem;
+  color: #ff4655;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+/* Image Styles for Agents, Weapons, and Maps */
+.section-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.section-images img {
+  width: 100px; 
+  height: auto;
+  border-radius: 5px; 
+}
+
+/* Sticky Footer */
+footer {
+  background-color: #1b1e23;
+  color: #bbb;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #ff4655;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #fff;
+}
