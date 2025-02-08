@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy - Tech Haven</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 1rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #D22B2B;
+        }
+
+        .product-list {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .product-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .product-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-item p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+
+        .product-item .price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #D22B2B;
+        }
+
+        .product-item .buy-btn {
+            background: #D22B2B;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .product-item .buy-btn:hover {
+            background: #ff473a;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shop Our Products</h1>
+        <p>Browse through our premium collection of computer parts.</p>
+    </header>
+
+    <section class="product-list">
+        <div class="product-item">
+            <img src="https://cdn.mos.cms.futurecdn.net/SHNF8CCHmJYBiinmsdcHea-1200-80.jpg" alt="Processor">
+            <h3>High-Performance Processor</h3>
+            <p>Boost your PC performance with the latest CPUs.</p>
+            <div class="price">Starts at ₱8000</div>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+
+        <div class="product-item">
+            <img src="https://cdn.mos.cms.futurecdn.net/RQasNr9G6jDGiwHTqKcBba-1200-80.jpg" alt="Graphics Card">
+            <h3>Top-tier Graphics Card</h3>
+            <p>Experience seamless gaming with stunning visuals.</p>
+            <div class="price">Starts at ₱5000</div>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+
+        <div class="product-item">
+            <img src="https://cdn.mos.cms.futurecdn.net/cLqXVBLJQWizovM66ob3rk.jpg" alt="Motherboard">
+            <h3>Reliable Motherboard</h3>
+            <p>Build a robust PC setup with our trusted motherboards.</p>
+            <div class="price">Starts at ₱4000</div>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+
+        <div class="product-item">
+            <img src="https://cdn.mos.cms.futurecdn.net/jM9JCM8RBSykEorEqDqpzW-1200-80.jpg" alt="Accessories">
+            <h3>Essential Accessories</h3>
+            <p>Enhance your PC experience with premium peripherals.</p>
+            <div class="price">Starts at ₱1000</div>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ShawnTech. All rights reserved.</p>
+    </footer>
+</body>
+</html>
